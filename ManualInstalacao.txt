@@ -1,0 +1,6 @@
+Copiar o ficheiro rxtxSerial.dll para %JDK%\jre\bin\rxtxSerial.dll
+Copiar o ficheiro RXTXcomm.jar para %JDK%\jre\lib\ext\RXTXcomm.jar
+
+No Projecto Java:
+Project>Properties: BuildPath>Libraries>AddExternalJARs:
+    %JDK%\jre\lib\ext\RXTXcomm.jar
